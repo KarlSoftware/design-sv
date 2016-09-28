@@ -1,7 +1,8 @@
 var map = L.map('mapid', {
     center: [63, 15],
-    zoom: 5,
+    zoom: 4.5,
 });
+
 
 L.tileLayer('https://api.mapbox.com/styles/v1/sbtn/{id}/tiles/256/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -10,8 +11,9 @@ L.tileLayer('https://api.mapbox.com/styles/v1/sbtn/{id}/tiles/256/{z}/{x}/{y}?ac
     accessToken: 'pk.eyJ1Ijoic2J0biIsImEiOiJjaXRtdmhwYWMwMDE3Mm5vN2lubXV2c25vIn0.IPGzS7IusNBRX5SHRlterQ'
 }).addTo(map);
 
-var geoJson;
 
+
+var geoJson;
 
 // Panel - custom control
 var info = L.control();
@@ -24,10 +26,13 @@ info.onAdd = function (map) {
 
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
-    this._div.innerHTML = (props ? '<h4>' + props.knnamn + '</h4><br />Antal platser idag: ' + props.platser : '');
+    this._div.innerHTML = (props ? '<h4>' + props.knnamn + '</h4><br /><p>Antal platser idag: ' + props.platser + '</p>': '');
 };
 
 info.addTo(map);
+
+
+
 
 // Listeners & events
 function highlightFeature(e) {
@@ -72,16 +77,16 @@ function style(feature) {
     };
 }
 
-var heat = L.heatLayer([], {radius: 30, maxZoom: 5, gradient: { .4: "#0085da", .6: "#0088a5", .7: "#45b6ba", .8: "#7eeaee", 1: "white" }}).addTo(map);
+var heat = L.heatLayer([], {
+    radius: 30, 
+    maxZoom: 5, 
+    gradient: { .4: "#0085da", .6: "#0088a5", .7: "#45b6ba", .8: "#7eeaee", 1: "white" }
+}).addTo(map);
 
 
 
 
-
-var allJobs = [];
 var highest = 0;
-var totalAntalAnnonser;
-
 
 function getDay(diff) {
     var timestamp = new Date()
@@ -94,9 +99,7 @@ function getDay(diff) {
 
 // Load todays data from AF
 //
-$.getJSON('./json_AF/' + getDay(0) + '_json_AF.json', function(jobs) {
-
-        totalAntalAnnonser = jobs.matchningslista.antal_platserTotal;
+$.getJSON('./json_AF/' + '20160827' + '_json_AF.json', function(jobs) {
 
         $.each(kn_points.features, function(i, point) {
             $.each(jobs.matchningslista.matchningdata, function(j, match) {
