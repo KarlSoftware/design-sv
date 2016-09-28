@@ -1,0 +1,20 @@
+#mapid { 
+  height: 800px; 
+  width: 100%;
+}
+
+.info {
+	color: #fff;
+	right: 25px;
+	top: 25px;
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: #333;
+    background: rgba(20,20,20,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #eeeeee;
+}

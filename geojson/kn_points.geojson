@@ -1,0 +1,3194 @@
+var kn_points = {
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "knkod": 319,
+            "knnamn": "Älvkarleby",
+            "lan": "Uppsala län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.4392388264415, 60.577126629919732]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1761,
+            "knnamn": "Hammarö",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.52515077107269, 59.328761399321131]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 184,
+            "knnamn": "Solna",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.013868949998184, 59.372330213113194]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1402,
+            "knnamn": "Partille",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.139767121211548, 57.729262431871263]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1492,
+            "knnamn": "Åmål",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.575977843395492, 59.016772260786084]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 834,
+            "knnamn": "Torsås",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.901527529177583, 56.427592483983055]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1439,
+            "knnamn": "Färgelanda",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.008068486791087, 58.64193387543073]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 187,
+            "knnamn": "Vaxholm",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.247509379280412, 59.411897423184215]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1982,
+            "knnamn": "Fagersta",
+            "lan": "Västmanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.893265441839487, 59.952569281457357]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 183,
+            "knnamn": "Sundbyberg",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.966897420538267, 59.377474449884375]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 140,
+            "knnamn": "Nykvarn",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.391056359340411, 59.194279286398114]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1260,
+            "knnamn": "Bjuv",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.973028844484453, 56.05818782759161]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 115,
+            "knnamn": "Vallentuna",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.205730334878098, 59.588182372163359]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 428,
+            "knnamn": "Vingåker",
+            "lan": "Södermanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.872393776713185, 59.06782186178296]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 481,
+            "knnamn": "Oxelösund",
+            "lan": "Södermanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.055862937109961, 58.698018919867906]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 642,
+            "knnamn": "Mullsjö",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.822586999957926, 57.954084657968821]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1442,
+            "knnamn": "Vårgårda",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.772252784088977, 57.987374683437771]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1765,
+            "knnamn": "Årjäng",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.092435109281585, 59.430696669616083]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2026,
+            "knnamn": "Gagnef",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.891521268786695, 60.480809372666322]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1785,
+            "knnamn": "Säffle",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.853952833083261, 59.203848422053667]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 643,
+            "knnamn": "Habo",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.04613501825534, 57.970828292991541]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 127,
+            "knnamn": "Botkyrka",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.829644754040046, 59.169485522314233]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 480,
+            "knnamn": "Nyköping",
+            "lan": "Södermanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.919471755836344, 58.825275321287492]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1762,
+            "knnamn": "Munkfors",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.479482448075023, 59.829907060144485]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 486,
+            "knnamn": "Strängnäs",
+            "lan": "Södermanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.042484528258505, 59.34381009341223]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 360,
+            "knnamn": "Tierp",
+            "lan": "Uppsala län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.620106623193696, 60.376368416262373]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 488,
+            "knnamn": "Trosa",
+            "lan": "Södermanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.479905787397833, 58.901641959638845]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 561,
+            "knnamn": "Åtvidaberg",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.089853699811787, 58.227663761086021]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 580,
+            "knnamn": "Linköping",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.589276171359034, 58.379411804438384]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 123,
+            "knnamn": "Järfälla",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.832534532434991, 59.435617169569603]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 381,
+            "knnamn": "Enköping",
+            "lan": "Uppsala län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.127160961903353, 59.691165840554923]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 186,
+            "knnamn": "Lidingö",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.173608679599234, 59.36730119569247]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 683,
+            "knnamn": "Värnamo",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.10466704458589, 57.155535629983753]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 765,
+            "knnamn": "Älmhult",
+            "lan": "Kronobergs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.176691738361558, 56.575192812542461]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1083,
+            "knnamn": "Sölvesborg",
+            "lan": "Blekinge län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.651293615412383, 56.086920064521401]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 484,
+            "knnamn": "Eskilstuna",
+            "lan": "Södermanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.433694305962014, 59.32471295972536]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 483,
+            "knnamn": "Katrineholm",
+            "lan": "Södermanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.276329279719466, 59.014541630028276]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 861,
+            "knnamn": "Mönsterås",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.337246784136674, 57.076540239251578]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1763,
+            "knnamn": "Forshaga",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.504837747140487, 59.656377467387244]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 139,
+            "knnamn": "Upplands-Bro",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.67896391192177, 59.54827609063878]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 883,
+            "knnamn": "Västervik",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.371533158051843, 57.850687753708222]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 162,
+            "knnamn": "Danderyd",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.050690200034357, 59.411009351359496]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 163,
+            "knnamn": "Sollentuna",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.940223163215087, 59.451502881056157]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1060,
+            "knnamn": "Olofström",
+            "lan": "Blekinge län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.569367776934522, 56.322566728501634]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 461,
+            "knnamn": "Gnesta",
+            "lan": "Södermanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.133574062083088, 59.095116182082855]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 382,
+            "knnamn": "Östhammar",
+            "lan": "Uppsala län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.172104427875546, 60.221578521077177]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 482,
+            "knnamn": "Flen",
+            "lan": "Södermanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.686328871861722, 59.078938967621383]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 191,
+            "knnamn": "Sigtuna",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.897060981556102, 59.648132504020396]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1214,
+            "knnamn": "Svalöv",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.130127927672428, 55.9671725790826]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1256,
+            "knnamn": "Östra Göinge",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.146806751624386, 56.273497804721167]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 330,
+            "knnamn": "Knivsta",
+            "lan": "Uppsala län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.862567180014132, 59.754144600282494]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 331,
+            "knnamn": "Heby",
+            "lan": "Uppsala län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.014458901981861, 60.090673104759453]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 512,
+            "knnamn": "Ydre",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.252945179803216, 57.860769802999286]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 513,
+            "knnamn": "Kinda",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.723325673143174, 58.005235867573099]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1764,
+            "knnamn": "Grums",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.010606739028313, 59.403873182782775]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 509,
+            "knnamn": "Ödeshög",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.738692793850916, 58.204381321895049]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 560,
+            "knnamn": "Boxholm",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.112399147562103, 58.142628882663949]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 563,
+            "knnamn": "Valdemarsvik",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.544893000596112, 58.207244490464475]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2409,
+            "knnamn": "Robertsfors",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [20.767327675213252, 64.209798866654992]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 562,
+            "knnamn": "Finspång",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.763528440139424, 58.818884000110167]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 617,
+            "knnamn": "Gnosjö",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.809821871853126, 57.359987586075682]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 583,
+            "knnamn": "Motala",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.195087941848641, 58.644429666267094]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 584,
+            "knnamn": "Vadstena",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.842787842491676, 58.406292373531734]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1282,
+            "knnamn": "Landskrona",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.914110700936281, 55.893706367269274]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 604,
+            "knnamn": "Aneby",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.797432951319729, 57.872976168010311]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 586,
+            "knnamn": "Mjölby",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.153300367087146, 58.321755416005409]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 582,
+            "knnamn": "Söderköping",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.395508393697476, 58.401649393839726]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1262,
+            "knnamn": "Lomma",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.077168775664401, 55.709495944828589]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 662,
+            "knnamn": "Gislaved",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.516117101688211, 57.259175740670734]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 665,
+            "knnamn": "Vaggeryd",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.122472451781999, 57.478202720221333]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 682,
+            "knnamn": "Nässjö",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.656296781272115, 57.62324785284644]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1272,
+            "knnamn": "Bromölla",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.494115434330363, 56.127779551311662]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 821,
+            "knnamn": "Högsby",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.92999695126904, 57.140970938057791]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 685,
+            "knnamn": "Vetlanda",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.159853826252512, 57.376484164656162]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 684,
+            "knnamn": "Sävsjö",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.580754062720422, 57.332798874292905]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 686,
+            "knnamn": "Eksjö",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.207877629182041, 57.625121502704481]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 687,
+            "knnamn": "Tranås",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.83135060889165, 58.026333650202432]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 840,
+            "knnamn": "Mörbylånga",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.516615196670013, 56.518792452780872]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1278,
+            "knnamn": "Båstad",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.799622223563436, 56.399278826210235]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 760,
+            "knnamn": "Uppvidinge",
+            "lan": "Kronobergs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.423197522607344, 57.044161107089906]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 761,
+            "knnamn": "Lessebo",
+            "lan": "Kronobergs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.314247237428058, 56.777596972709993]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 763,
+            "knnamn": "Tingsryd",
+            "lan": "Kronobergs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.968137661545853, 56.548819060502282]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 764,
+            "knnamn": "Alvesta",
+            "lan": "Kronobergs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.497069220334909, 56.859481048071551]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1265,
+            "knnamn": "Sjöbo",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.746085728391694, 55.649234259936136]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 767,
+            "knnamn": "Markaryd",
+            "lan": "Kronobergs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.612456279217914, 56.544401149146012]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 781,
+            "knnamn": "Ljungby",
+            "lan": "Kronobergs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.834145000456008, 56.824593713658018]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1461,
+            "knnamn": "Mellerud",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.392062498411679, 58.704739814201488]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 860,
+            "knnamn": "Hultsfred",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.80115136852619, 57.404003853887936]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1291,
+            "knnamn": "Simrishamn",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.212115905880751, 55.583028897459343]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 862,
+            "knnamn": "Emmaboda",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.551433828466422, 56.63718274155903]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 880,
+            "knnamn": "Kalmar",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.14392139349108, 56.69018746397564]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2132,
+            "knnamn": "Nordanstig",
+            "lan": "Gävleborgs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.94775129757355, 62.073794082369545]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1471,
+            "knnamn": "Götene",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.479988237951632, 58.549647773660467]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 881,
+            "knnamn": "Nybro",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.885690327757249, 56.843776303775599]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1881,
+            "knnamn": "Kumla",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.132696392679144, 59.134841820686248]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 882,
+            "knnamn": "Oskarshamn",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.365148657739031, 57.383124563698793]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 884,
+            "knnamn": "Vimmerby",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.861427714892347, 57.698145059154307]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1233,
+            "knnamn": "Vellinge",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.011675275351422, 55.45834962162224]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 885,
+            "knnamn": "Borgholm",
+            "lan": "Kalmar län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.829793063697217, 56.991086462216714]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1230,
+            "knnamn": "Staffanstorp",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.217616593074412, 55.649375511777869]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1472,
+            "knnamn": "Tibro",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.213952535827959, 58.451561459658784]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1231,
+            "knnamn": "Burlöv",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.101427983782694, 55.636956105044625]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1267,
+            "knnamn": "Höör",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.518291791420065, 55.951542628228154]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 980,
+            "knnamn": "Gotland",
+            "lan": "Gotlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.521087674606576, 57.512343297346426]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1080,
+            "knnamn": "Karlskrona",
+            "lan": "Blekinge län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.674135154365088, 56.294252962912545]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1984,
+            "knnamn": "Arboga",
+            "lan": "Västmanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.79012398909245, 59.399095260888473]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1081,
+            "knnamn": "Ronneby",
+            "lan": "Blekinge län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.227401432923575, 56.319403484953661]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1082,
+            "knnamn": "Karlshamn",
+            "lan": "Blekinge län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.86294669675811, 56.261530181095722]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2082,
+            "knnamn": "Säter",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.687308471920337, 60.37502490663865]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1263,
+            "knnamn": "Svedala",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.260540998518229, 55.540290414435916]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1264,
+            "knnamn": "Skurup",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.550381911955887, 55.470994787681683]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1270,
+            "knnamn": "Tomelilla",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.020925786387851, 55.619328928291168]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1257,
+            "knnamn": "Örkelljunga",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.33693526709529, 56.319900301817889]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1261,
+            "knnamn": "Kävlinge",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.063103458945157, 55.793827625557704]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1481,
+            "knnamn": "Mölndal",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.103577077725044, 57.608195355128409]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1273,
+            "knnamn": "Osby",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.15333198197316, 56.419066690547837]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1275,
+            "knnamn": "Perstorp",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.374734963285416, 56.195183886967996]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1444,
+            "knnamn": "Grästorp",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.6575547586868, 58.325868813138676]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1276,
+            "knnamn": "Klippan",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.254698059658008, 56.115076387039622]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1280,
+            "knnamn": "Malmö",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.028358695490473, 55.565534624259165]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1283,
+            "knnamn": "Helsingborg",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.798797825651727, 56.073425526178958]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1286,
+            "knnamn": "Ystad",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.890209499347254, 55.471288779073248]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1287,
+            "knnamn": "Trelleborg",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.276249642801922, 55.421334686028722]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2121,
+            "knnamn": "Ovanåker",
+            "lan": "Gävleborgs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.791494730714996, 61.371715773138966]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1290,
+            "knnamn": "Kristianstad",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.146285856240237, 56.002347129001372]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1443,
+            "knnamn": "Bollebygd",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.624976194799107, 57.735831152602742]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1315,
+            "knnamn": "Hylte",
+            "lan": "Hallands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.29073414029795, 56.978066612915327]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1715,
+            "knnamn": "Kil",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.203843426384315, 59.581593408160629]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1380,
+            "knnamn": "Halmstad",
+            "lan": "Hallands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.988561064707852, 56.752379326361719]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1730,
+            "knnamn": "Eda",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.19841136242084, 59.8032466816327]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1381,
+            "knnamn": "Laholm",
+            "lan": "Hallands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.205403320264772, 56.503456624497709]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1382,
+            "knnamn": "Falkenberg",
+            "lan": "Hallands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.745232172077584, 57.04357933919438]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1383,
+            "knnamn": "Varberg",
+            "lan": "Hallands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.440686002359763, 57.187677529194964]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1462,
+            "knnamn": "Lilla Edet",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.146780572863706, 58.137697886227784]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1415,
+            "knnamn": "Stenungsund",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.933914931483384, 58.055308408100771]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1438,
+            "knnamn": "Dals-Ed",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.877164882697294, 58.981526019188458]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1421,
+            "knnamn": "Orust",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.665776647593624, 58.175336697085285]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1430,
+            "knnamn": "Munkedal",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.703185806165493, 58.580255375941398]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1435,
+            "knnamn": "Tanum",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.4457745003062, 58.729767413552793]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2021,
+            "knnamn": "Vansbro",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.259406567448059, 60.451222228375215]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1760,
+            "knnamn": "Storfors",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.257643682697806, 59.50037421338147]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1440,
+            "knnamn": "Ale",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.231172434094383, 57.965921645792719]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1441,
+            "knnamn": "Lerum",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.338574934447259, 57.837982902666525]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1445,
+            "knnamn": "Essunga",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.750064473997421, 58.187111091471436]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1446,
+            "knnamn": "Karlsborg",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.447134360860851, 58.620787828719486]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1452,
+            "knnamn": "Tranemo",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.42007041438832, 57.515093160391892]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1447,
+            "knnamn": "Gullspång",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.177225636288354, 58.929184004059273]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1460,
+            "knnamn": "Bengtsfors",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.197764528975899, 59.042958091953089]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1463,
+            "knnamn": "Mark",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.615247090058658, 57.464682335454178]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1465,
+            "knnamn": "Svenljunga",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.069568660909221, 57.392233172491338]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1466,
+            "knnamn": "Herrljunga",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.113904822875494, 58.010282105130443]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1470,
+            "knnamn": "Vara",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.066851519095167, 58.245033930101556]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1484,
+            "knnamn": "Lysekil",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.518373307687794, 58.363422868871048]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1473,
+            "knnamn": "Töreboda",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.161545963415808, 58.677695906600341]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2560,
+            "knnamn": "Älvsbyn",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [20.669639669238066, 65.748692798567532]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1485,
+            "knnamn": "Uddevalla",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.899556833272257, 58.330133584634616]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1766,
+            "knnamn": "Sunne",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.057324935525893, 59.902881599659771]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1489,
+            "knnamn": "Alingsås",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.539077542141277, 57.99313970667486]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1488,
+            "knnamn": "Trollhättan",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.352123786707775, 58.217716382563722]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1487,
+            "knnamn": "Vänersborg",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.303744506360488, 58.454254722147915]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1486,
+            "knnamn": "Strömstad",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.296586442793924, 58.974379160417996]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1491,
+            "knnamn": "Ulricehamn",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.455974853336405, 57.806807056075854]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1493,
+            "knnamn": "Mariestad",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.857962712579287, 58.721963654133752]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1495,
+            "knnamn": "Skara",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.482204259821364, 58.382513386373425]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2029,
+            "knnamn": "Leksand",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.949057627167123, 60.711098303754078]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1497,
+            "knnamn": "Hjo",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.194778047685505, 58.285531097133287]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1498,
+            "knnamn": "Tidaholm",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.945175123523031, 58.149018972690818]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1737,
+            "knnamn": "Torsby",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.886570655163689, 60.534246766240258]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1496,
+            "knnamn": "Skövde",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.904049823311464, 58.437391321098502]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1781,
+            "knnamn": "Kristinehamn",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.133727679694383, 59.2522207827678]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1782,
+            "knnamn": "Filipstad",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.147957642591965, 59.863916888898792]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1783,
+            "knnamn": "Hagfors",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.641279589701666, 60.092569519275166]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1784,
+            "knnamn": "Arvika",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.631871231737192, 59.694751684995154]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1780,
+            "knnamn": "Karlstad",
+            "lan": "Värmlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.643394615612879, 59.505536348945746]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1814,
+            "knnamn": "Lekeberg",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.792857603065082, 59.182345355121342]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1861,
+            "knnamn": "Hallsberg",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.205239498420752, 59.011841781805998]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1862,
+            "knnamn": "Degerfors",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.423047957944735, 59.174587520313054]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1864,
+            "knnamn": "Ljusnarsberg",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.959373445737349, 59.951039948678371]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1860,
+            "knnamn": "Laxå",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.526703892707829, 58.926802180261575]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1863,
+            "knnamn": "Hällefors",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.61515867283871, 59.782944427596284]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1983,
+            "knnamn": "Köping",
+            "lan": "Västmanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.880328462024053, 59.588823927935991]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2023,
+            "knnamn": "Malung-Sälen",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.366964763563788, 60.899855840710892]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1882,
+            "knnamn": "Askersund",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.944503037160892, 58.882316294931201]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1883,
+            "knnamn": "Karlskoga",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.567325472374096, 59.386821833964454]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1884,
+            "knnamn": "Nora",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.891655734532767, 59.541416176623521]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2417,
+            "knnamn": "Norsjö",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [19.53626261667323, 64.935441886864339]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1885,
+            "knnamn": "Lindesberg",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.312627633338078, 59.666230542515322]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1904,
+            "knnamn": "Skinnskatteberg",
+            "lan": "Västmanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.71372190905867, 59.805030533118071]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1907,
+            "knnamn": "Surahammar",
+            "lan": "Västmanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.123970644981583, 59.779774790096091]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1961,
+            "knnamn": "Hallstahammar",
+            "lan": "Västmanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.22329485009082, 59.601215426466325]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1962,
+            "knnamn": "Norberg",
+            "lan": "Västmanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.953688444777841, 60.085029830704812]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1981,
+            "knnamn": "Sala",
+            "lan": "Västmanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.491116621340627, 59.969605788695858]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1960,
+            "knnamn": "Kungsör",
+            "lan": "Västmanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.072886159096001, 59.419715389158718]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2034,
+            "knnamn": "Orsa",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.71429072597531, 61.329162332124064]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2061,
+            "knnamn": "Smedjebacken",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.451530812468627, 60.092479313143677]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2421,
+            "knnamn": "Storuman",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.075618724900398, 65.442831068789275]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2182,
+            "knnamn": "Söderhamn",
+            "lan": "Gävleborgs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.921162663148081, 61.256538492960601]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2062,
+            "knnamn": "Mora",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.253306249262391, 61.046296586996775]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1292,
+            "knnamn": "Ängelholm",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.969515014577306, 56.269835253018933]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2080,
+            "knnamn": "Falun",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.849980578257378, 60.754190928281453]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2039,
+            "knnamn": "Älvdalen",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.150634151166015, 61.652575017801723]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2083,
+            "knnamn": "Hedemora",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.067187133191052, 60.361764913740544]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2084,
+            "knnamn": "Avesta",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.3655364412725, 60.220784650898246]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2085,
+            "knnamn": "Ludvika",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.758017368651688, 60.18811612354947]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2101,
+            "knnamn": "Ockelbo",
+            "lan": "Gävleborgs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.579108447820726, 60.925362846239587]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2104,
+            "knnamn": "Hofors",
+            "lan": "Gävleborgs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.427441101155104, 60.497977819789213]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2081,
+            "knnamn": "Borlänge",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.357225197957087, 60.450225358005156]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2161,
+            "knnamn": "Ljusdal",
+            "lan": "Gävleborgs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.53591081465107, 61.867342822232175]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2181,
+            "knnamn": "Sandviken",
+            "lan": "Gävleborgs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.666395598996118, 60.545052207188427]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2184,
+            "knnamn": "Hudiksvall",
+            "lan": "Gävleborgs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.754610165790496, 61.809195624555201]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2282,
+            "knnamn": "Kramfors",
+            "lan": "Västernorrlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.931589098624482, 62.992048764502542]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2280,
+            "knnamn": "Härnösand",
+            "lan": "Västernorrlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.687075446369317, 62.730864971736239]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2262,
+            "knnamn": "Timrå",
+            "lan": "Västernorrlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.334537739491413, 62.637175647074493]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2260,
+            "knnamn": "Ånge",
+            "lan": "Västernorrlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.715525093372911, 62.485505969356019]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2281,
+            "knnamn": "Sundsvall",
+            "lan": "Västernorrlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.89529977656488, 62.507015558137901]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2303,
+            "knnamn": "Ragunda",
+            "lan": "Jämtlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.051199406636947, 63.200489949360637]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2404,
+            "knnamn": "Vindeln",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [19.511690430475323, 64.366383724977368]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2309,
+            "knnamn": "Krokom",
+            "lan": "Jämtlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.205199044632685, 63.789264512547639]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2284,
+            "knnamn": "Örnsköldsvik",
+            "lan": "Västernorrlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.241399722040633, 63.559555192221396]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2326,
+            "knnamn": "Berg",
+            "lan": "Jämtlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.765954568057076, 62.769985645236829]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2422,
+            "knnamn": "Sorsele",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.748083581440095, 65.733783683422772]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2425,
+            "knnamn": "Dorotea",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.910989345620965, 64.53342738130155]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2313,
+            "knnamn": "Strömsund",
+            "lan": "Jämtlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.240253179588768, 64.231917707387311]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2401,
+            "knnamn": "Nordmaling",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [19.39366442442693, 63.685895423352768]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2403,
+            "knnamn": "Bjurholm",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.987316120673963, 63.961200171855907]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2361,
+            "knnamn": "Härjedalen",
+            "lan": "Jämtlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.701918655686248, 62.222852398704646]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2462,
+            "knnamn": "Vilhelmina",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.99506366156546, 64.951183034890633]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2481,
+            "knnamn": "Lycksele",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.444437901953393, 64.65517970985097]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2463,
+            "knnamn": "Åsele",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.608103867357908, 64.186046121755069]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2460,
+            "knnamn": "Vännäs",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [19.711794749354659, 63.958087514743795]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2505,
+            "knnamn": "Arvidsjaur",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [19.279081828960848, 65.690887471445237]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1401,
+            "knnamn": "Härryda",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.327486931240589, 57.669589649694757]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2321,
+            "knnamn": "Åre",
+            "lan": "Jämtlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.960788532394286, 63.418659998710069]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2506,
+            "knnamn": "Arjeplog",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.238583899663929, 66.387543973249095]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1266,
+            "knnamn": "Hörby",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.738848649662559, 55.845566137377794]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2580,
+            "knnamn": "Luleå",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [22.060619619826305, 65.808102572377834]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2510,
+            "knnamn": "Jokkmokk",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.668606757277402, 66.9037883454575]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2514,
+            "knnamn": "Kalix",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [22.954277254804513, 65.975491998177603]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2521,
+            "knnamn": "Pajala",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [22.909533750426377, 67.32303487286039]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2513,
+            "knnamn": "Överkalix",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [22.592935217503964, 66.465590311562565]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2582,
+            "knnamn": "Boden",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [21.353278540983478, 66.066113377661708]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2583,
+            "knnamn": "Haparanda",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [23.779326252967156, 65.968663675694984]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 192,
+            "knnamn": "Nynäshamn",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.865215459308192, 58.987278234154097]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1293,
+            "knnamn": "Hässleholm",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.727895007810092, 56.204800252760428]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2584,
+            "knnamn": "Kiruna",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [20.737412997001428, 68.166396451889455]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 114,
+            "knnamn": "Upplands Väsby",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.914185059922435, 59.525013723571426]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1277,
+            "knnamn": "Åstorp",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.001977824049433, 56.138201069111389]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 305,
+            "knnamn": "Håbo",
+            "lan": "Uppsala län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.516200910472431, 59.641844869254882]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 138,
+            "knnamn": "Tyresö",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.298050403344327, 59.220166906067426]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 160,
+            "knnamn": "Täby",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.074250528673886, 59.470815075514352]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 117,
+            "knnamn": "Österåker",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.418677524043868, 59.508938157403513]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 188,
+            "knnamn": "Norrtälje",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.621982151961223, 59.842594142971592]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 125,
+            "knnamn": "Ekerö",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.678925520429431, 59.361880986025618]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1285,
+            "knnamn": "Eslöv",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.372515481513071, 55.839668443291465]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1407,
+            "knnamn": "Öckerö",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.666879388405199, 57.731613411607775]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1980,
+            "knnamn": "Västerås",
+            "lan": "Västmanlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.546935913301947, 59.665694006508218]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 120,
+            "knnamn": "Värmdö",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.583489648850055, 59.319177662422476]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1284,
+            "knnamn": "Höganäs",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.621908756196918, 56.216127665070417]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2183,
+            "knnamn": "Bollnäs",
+            "lan": "Gävleborgs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.387359028312165, 61.322892290075956]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1419,
+            "knnamn": "Tjörn",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.658755759836037, 58.016251941215835]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1427,
+            "knnamn": "Sotenäs",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.372851516623054, 58.420258026048764]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2031,
+            "knnamn": "Rättvik",
+            "lan": "Dalarnas län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.307430242958363, 61.139867817681093]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2581,
+            "knnamn": "Piteå",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [20.852496226739781, 65.407298303386412]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2523,
+            "knnamn": "Gällivare",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [20.128688660407363, 67.288451378014926]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2518,
+            "knnamn": "Övertorneå",
+            "lan": "Norrbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [23.507711507481108, 66.539664630412105]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2418,
+            "knnamn": "Malå",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.734807882641668, 65.243391704156181]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2380,
+            "knnamn": "Östersund",
+            "lan": "Jämtlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.90274616158799, 63.262136685694117]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2305,
+            "knnamn": "Bräcke",
+            "lan": "Jämtlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.594668156708055, 62.866502951822596]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2283,
+            "knnamn": "Sollefteå",
+            "lan": "Västernorrlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.901779400960187, 63.446816305709554]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2180,
+            "knnamn": "Gävle",
+            "lan": "Gävleborgs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.073750781810435, 60.654577787903733]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1499,
+            "knnamn": "Falköping",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.548541033808657, 58.145400467845683]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1494,
+            "knnamn": "Lidköping",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.042932237037899, 58.479904603014759]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1482,
+            "knnamn": "Kungälv",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.913503032484959, 57.907909169487397]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1490,
+            "knnamn": "Borås",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.942421265265569, 57.731536740312031]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 581,
+            "knnamn": "Norrköping",
+            "lan": "Östergötlands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [16.270104738757659, 58.604522067879117]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1281,
+            "knnamn": "Lund",
+            "lan": "Skåne län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.374863768748332, 55.670758002957044]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 680,
+            "knnamn": "Jönköping",
+            "lan": "Jönköpings län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.189582553544064, 57.775675029309376]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 780,
+            "knnamn": "Växjö",
+            "lan": "Kronobergs län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.875398062952227, 56.946511023769752]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1384,
+            "knnamn": "Kungsbacka",
+            "lan": "Hallands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.184858655657122, 57.45284641171633]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1480,
+            "knnamn": "Göteborg",
+            "lan": "Västra Götalands län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.981758540110695, 57.744494279498539]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 1880,
+            "knnamn": "Örebro",
+            "lan": "Örebro län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.299228571877908, 59.269829816837102]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 126,
+            "knnamn": "Huddinge",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.023690172741237, 59.216863397207234]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2482,
+            "knnamn": "Skellefteå",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [20.544249522037141, 64.818983071174486]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 136,
+            "knnamn": "Haninge",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.192876040886819, 59.099984394575394]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 182,
+            "knnamn": "Nacka",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.234799467081324, 59.305405191529715]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 180,
+            "knnamn": "Stockholm",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.003373661204687, 59.323135676209041]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 380,
+            "knnamn": "Uppsala",
+            "lan": "Uppsala län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.713079540632815, 59.945520363668471]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 2480,
+            "knnamn": "Umeå",
+            "lan": "Västerbottens län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [20.196978534194844, 63.94588424192866]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 181,
+            "knnamn": "Södertälje",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.523607895700522, 59.106272074723982]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "knkod": 128,
+            "knnamn": "Salem",
+            "lan": "Stockholms län"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [17.703660668303364, 59.238461670300367]
+        }
+    }]
+}
