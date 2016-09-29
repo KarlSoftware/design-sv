@@ -1,6 +1,6 @@
 var map = L.map('mapid', {
-    center: [63, 15],
-    zoom: 4.5,
+    center: [62.9, 16],
+    zoom: 5,
 });
 
 L.tileLayer('https://api.mapbox.com/styles/v1/sbtn/{id}/tiles/256/{z}/{x}/{y}?access_token={accessToken}', {
@@ -22,17 +22,18 @@ function today() {
     return year + month + day;
 }
 
-
 // AF JSON is read and kn_lan_poly object updated with platser
 function ready() {
 
-    // Init heatmap
+
+
+// Init heatmap
     var heat = L.heatLayer([], {
         radius: 30,
         maxZoom: 5,
         gradient: { .4: "#bbbbbb", .6: "#cccccc", .7: "#dddddd", .8: "#eeeeee", 1: "#ffffff" }
     }).addTo(map);
-  
+
 
 
 
@@ -47,26 +48,39 @@ function ready() {
 
 
 
+
     // Style and add polygon map kn_lan_poly
     function style(feature) {
         return {
-            fillOpacity: 0,
+            fillOpacity: feature.properties.platser > 0 ? 0 : 0.15,
             color: "#ffffff",
+            fillColor: feature.properties.platser > 0 ? "" : "#000000",
             weight: feature.properties.platser > 0 ? 0.11 : 0,
         };
     }
 
-    var geoJson = L.geoJson(kn_lan_poly, { 
-        style: style, 
-        onEachFeature: onEachFeature 
+    var geoJson = L.geoJson(kn_lan_poly, {
+        style: style,
+        onEachFeature: onEachFeature
     }).addTo(map);
 
 
 
 
 
+    
+
+
+
+
+
+
+
+
+
+
     // Get top 5 ranked kommuner
-    var ranking = []; 
+    var ranking = [];
     var top5 = [];
 
     $.each(kn_lan_poly.features, function(i, feature) {
@@ -84,10 +98,47 @@ function ready() {
 
 
 
+    // Info panel panel
+    var info = L.control({
+        position: 'bottomright'
+    });
+
+    info.onAdd = function(map) {
+        this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+        this._div.innerHTML = "<p>Kartläggning av designrelaterade platsannonser från Arbetsförmedlingen. Annonserna är dagens och filtreras med sökningen på yrkesområde 'Kultur, media, design' samt nykelord 'design'.</p>"
+        return this._div;
+    };
+
+    info.addTo(map);
+
+
+
+    // Display panel
+    var display = L.control({
+        position: 'topleft'
+    });
+
+    display.onAdd = function(map) {
+        this._div = L.DomUtil.create('div', 'display'); // create a div with a class "display"
+        this.update();
+        return this._div;
+    };
+
+    // method that we will use to update the control based on feature properties passed
+    display.update = function(props) {
+        this._div.innerHTML = (props ?
+            '<h4>' + props.knnamn + '</h4><br />' + today() + '<h2>Platsannonser: ' + props.platser + '</h2>' :
+            '<h4>Sverige</h4><br />' + today() + '<h2>Platsannonser: ' + totalAntalPlatsannonser + '</h2>');
+    };
+    display.addTo(map);
+
+
+
+
 
     // Chart - custom control
     var chart = L.control({
-        position: 'bottomleft'
+        position: 'topleft'
     });
 
     chart.onAdd = function(map) {
@@ -123,18 +174,27 @@ function ready() {
             'width': '100%',
             'height': 500,
             'backgroundColor': 'transparent',
-            'colors': ['white', 'white', 'white', 'white', 'white'],
+            'colors': ['white'],
             'legend': { 'position': 'none' },
             'animation': { 'startup': true, 'duration': 1000 },
             'axisTitlesPosition': 'none',
             'hAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 } },
             'vAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 }, 'textStyle': { 'color': "white" } },
             'bar': { 'groupWidth': '80%' },
-            'chartArea': {'width': '100%', 'height': '100%' }
+            'chartArea': { 'width': '100%', 'height': '100%' }
         };
 
         // Instantiate and draw our chart, passing in some options.
         var gchart = new google.visualization.BarChart(document.getElementById('gchart'));
+
+        // The select handler. Call the chart's getSelection() method
+        function selectHandler() {}
+
+        // Listen for the 'select' event, and call my function selectHandler() when
+        // the user selects something on the chart.
+        google.visualization.events.addListener(gchart, 'select', selectHandler);
+
+
         gchart.draw(data, options);
     }
 
@@ -142,22 +202,7 @@ function ready() {
 
 
 
-    // Display panel top right
-    var info = L.control( {
-        position: 'bottomleft'
-    });
 
-    info.onAdd = function(map) {
-        this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-        this.update();
-        return this._div;
-    };
-
-    // method that we will use to update the control based on feature properties passed
-    info.update = function(props) {
-        this._div.innerHTML = (props ? '<h4>' + props.knnamn + '</h4><br />' + today() + '<h2>Platsannonser: ' + props.platser + '</h2></strong></p>' : '<h4>Sverige</h4><br />' + today() + '<h2>Platsannonser: ' + totalAntalPlatsannonser + '</h2>');
-    };
-    info.addTo(map);
 
 
 
@@ -175,12 +220,12 @@ function ready() {
             layer.bringToFront();
         }
 
-        info.update(layer.feature.properties);
+        display.update(layer.feature.properties);
     }
 
     function resetHighlight(e) {
         geoJson.resetStyle(e.target);
-        info.update();
+        display.update();
     }
 
     function zoomToFeature(e) {

@@ -10,17 +10,40 @@ body {
     width: 100%;
 }
 
-.info {
+.display {
     color: #fff;
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: rgba(20, 20, 20, 0);
     border-radius: 5px;
     text-align: left;
+
 }
 
-.info h4 {
+.display h4 {
     margin: 0 0 5px;
     color: #eeeeee;
     font-size: 4em;
-    /*line-height: 1em;*/
+    line-height: 1em;
+}
+
+.display h2 {
+    margin: 0 0 5px;
+    color: #eeeeee;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+.info {
+    width: 200px;
+    color: #fff;
+    padding: 6px 25px;
+    font: 12px/17px Arial, Helvetica, sans-serif;
+    background: rgba(20, 20, 20, 0);
+    text-align: left;
+    background: rgba(0,0,0,0.7);
+}
+
+canvas.leaflet-heatmap-layer {
+    z-index: 999;
+    pointer-events: none;
 }
