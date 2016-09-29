@@ -4,7 +4,7 @@ var map = L.map('mapid', {
 });
 
 L.tileLayer('https://api.mapbox.com/styles/v1/sbtn/{id}/tiles/256/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>, Data <a href="http://www.arbetsformedlingen.se/Globalmeny/Om-webbplatsen/Oppna-data.html">Arbetsförmedlingen</a>',
     maxZoom: 18,
     id: 'citjymx5f00622imscnenfr6c',
     accessToken: 'pk.eyJ1Ijoic2J0biIsImEiOiJjaXRtdmhwYWMwMDE3Mm5vN2lubXV2c25vIn0.IPGzS7IusNBRX5SHRlterQ'
@@ -77,8 +77,8 @@ function ready() {
         return a.platser - b.platser;
     });
 
-    for (var i = ranking.length - 5; i < ranking.length; i++) {
-        top5.push(ranking[i]);
+    for (var i = 0; i < ranking.length; i++) {
+        ranking[i].platser > 0 ? top5.unshift(ranking[i]) : null;
     }
 
 
@@ -87,7 +87,7 @@ function ready() {
 
     // Chart - custom control
     var chart = L.control({
-        position: 'bottomright'
+        position: 'bottomleft'
     });
 
     chart.onAdd = function(map) {
@@ -120,15 +120,17 @@ function ready() {
         var options = {
             'title': "",
             'titleTextStyle': { 'color': 'white', 'fontSize': 40 },
-            'width': 400,
-            'height': 300,
+            'width': '100%',
+            'height': 500,
             'backgroundColor': 'transparent',
             'colors': ['white', 'white', 'white', 'white', 'white'],
             'legend': { 'position': 'none' },
             'animation': { 'startup': true, 'duration': 1000 },
             'axisTitlesPosition': 'none',
             'hAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 } },
-            'vAxis': { 'textPosition': 'none', 'textStyle': { 'color': "white" } }
+            'vAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 }, 'textStyle': { 'color': "white" } },
+            'bar': { 'groupWidth': '80%' },
+            'chartArea': {'width': '100%', 'height': '100%' }
         };
 
         // Instantiate and draw our chart, passing in some options.
@@ -142,7 +144,7 @@ function ready() {
 
     // Display panel top right
     var info = L.control( {
-        position: 'bottomright'
+        position: 'bottomleft'
     });
 
     info.onAdd = function(map) {
@@ -153,7 +155,7 @@ function ready() {
 
     // method that we will use to update the control based on feature properties passed
     info.update = function(props) {
-        this._div.innerHTML = (props ? '<h4>' + props.knnamn + '</h4><br />' + today() + '<h2>Platsannonser: ' + props.platser + '</h2></strong></p>' : '<h4>Sverige</h4><br /><p>' + today() + '</p><h2>Platsannonser (total): ' + totalAntalPlatsannonser + '</h2>');
+        this._div.innerHTML = (props ? '<h4>' + props.knnamn + '</h4><br />' + today() + '<h2>Platsannonser: ' + props.platser + '</h2></strong></p>' : '<h4>Sverige</h4><br />' + today() + '<h2>Platsannonser: ' + totalAntalPlatsannonser + '</h2>');
     };
     info.addTo(map);
 
