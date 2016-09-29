@@ -26,7 +26,8 @@ info.onAdd = function (map) {
 
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
-    this._div.innerHTML = (props ? '<h4>' + props.knnamn + '</h4><br /><p>Antal platser idag: ' + props.platser + '</p>': '');
+    var now = new Date();
+    this._div.innerHTML = (props ? '<h4>' + props.knnamn + '</h4><br /><p>' + now.getFullYear() + '-' + now.getMonth() + '-' + now.getDay() + '</p><p><strong><em>Platsannonser: ' + props.platser + '</em></strong></p>': '');
 };
 
 info.addTo(map);
@@ -88,7 +89,7 @@ var heat = L.heatLayer([], {
 
 var highest = 0;
 
-function getDay(diff) {
+function today() {
     var timestamp = new Date()
     year = '' + timestamp.getFullYear()
     month = timestamp.getMonth() < 10 ? '0' + timestamp.getMonth() : timestamp.getMonth();
@@ -99,7 +100,7 @@ function getDay(diff) {
 
 // Load todays data from AF
 //
-$.getJSON('./json_AF/' + '20160827' + '_json_AF.json', function(jobs) {
+$.getJSON('./json_AF/' + today() + '_json_AF.json', function(jobs) {
 
         $.each(kn_points.features, function(i, point) {
             $.each(jobs.matchningslista.matchningdata, function(j, match) {
