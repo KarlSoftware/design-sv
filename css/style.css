@@ -28,3 +28,10 @@ body {
     font-size: 4em;
     /*line-height: 1em;*/
 }
+
+#gchart {
+    color: #eeeeee;
+    font-size: 4em;
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+}
