@@ -51,6 +51,10 @@ div.leaflet-control {
     pointer-events: none;
 }
 
+div.leaflet-control-zoom {
+    pointer-events: visiblePainted;
+}
+
 rect {
     pointer-events: visiblePainted;
 }
