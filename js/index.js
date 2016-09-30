@@ -105,7 +105,8 @@ function ready() {
 
     info.onAdd = function(map) {
         this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-        this._div.innerHTML = "<p>Kartläggning av designrelaterade platsannonser från Arbetsförmedlingen. Annonserna uppdateras dagligen och filtreras på yrkesområde 'Kultur, media, design' samt nyckelord 'design'.</p>"
+        //this._div.innerHTML = "<p>Kartläggning av designrelaterade platsannonser från Arbetsförmedlingen. Annonserna uppdateras dagligen och filtreras på yrkesområde 'Kultur, media, design' samt nyckelord 'design'.</p>"
+        this._div.innerHTML = "<p>Design: Sweden is a visualization of design related job listings from Arbetsförmedlingen. The list is updated daily and filtered by category 'Culture, media, design' and the keyword 'design'.</p>"
         return this._div;
     };
 
@@ -127,8 +128,8 @@ function ready() {
     // method that we will use to update the control based on feature properties passed
     display.update = function(props) {
         this._div.innerHTML = (props ?
-            '<h4>' + props.knnamn + '</h4><br />' + today() + '<h2>Platsannonser: ' + props.platser + '</h2>' :
-            '<h4>Sverige</h4><br />' + today() + '<h2>Platsannonser: ' + totalAntalPlatsannonser + '</h2>');
+            '<h4>' + props.knnamn + '</h4><br />' + today() + '<h2>Available positions: ' + props.platser + '</h2>' :
+            '<h4>Design: Sweden</h4><br />' + today() + '<h2>Available positions: ' + totalAntalPlatsannonser + '</h2>');
     };
     display.addTo(map);
 
@@ -162,7 +163,7 @@ function ready() {
         // Create the data table.
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'Kommun');
-        data.addColumn('number', 'Platsannonser');
+        data.addColumn('number', 'Available positions');
         data.addRows(top5.map(function(obj) {
             return [obj.knnamn, obj.platser];
         }));
