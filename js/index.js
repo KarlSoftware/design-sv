@@ -230,6 +230,7 @@ function ready() {
     }
 
     function zoomToFeature(e) {
+        resetHighlight();
         var layer = e.target;
 
         layer.setStyle({
@@ -242,7 +243,7 @@ function ready() {
         }
 
         display.update(layer.feature.properties);
-        
+
         map.fitBounds(e.target.getBounds());
     }
 
