@@ -230,6 +230,19 @@ function ready() {
     }
 
     function zoomToFeature(e) {
+        var layer = e.target;
+
+        layer.setStyle({
+            weight: 1,
+            color: '#7eeaee'
+        });
+
+        if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+            layer.bringToFront();
+        }
+
+        display.update(layer.feature.properties);
+        
         map.fitBounds(e.target.getBounds());
     }
 
