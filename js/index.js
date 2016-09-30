@@ -105,7 +105,7 @@ function ready() {
 
     info.onAdd = function(map) {
         this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-        this._div.innerHTML = "<p>Kartläggning av designrelaterade platsannonser från Arbetsförmedlingen. Annonserna är dagens och filtreras med sökningen på yrkesområde 'Kultur, media, design' samt nykelord 'design'.</p>"
+        this._div.innerHTML = "<p>Kartläggning av designrelaterade platsannonser från Arbetsförmedlingen. Annonserna uppdateras dagligen och filtreras på yrkesområde 'Kultur, media, design' samt nyckelord 'design'.</p>"
         return this._div;
     };
 
@@ -173,7 +173,7 @@ function ready() {
             'titleTextStyle': { 'color': 'white', 'fontSize': 40 },
             'width': '100%',
             'height': 500,
-            'backgroundColor': 'transparent',
+            'backgroundColor': "none",
             'colors': ['white'],
             'legend': { 'position': 'none' },
             'animation': { 'startup': true, 'duration': 1000 },
@@ -181,7 +181,7 @@ function ready() {
             'hAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 } },
             'vAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 }, 'textStyle': { 'color': "white" } },
             'bar': { 'groupWidth': '80%' },
-            'chartArea': { 'width': '100%', 'height': '100%' }
+            'chartArea': { 'width': '100%', 'height': '100%' },
         };
 
         // Instantiate and draw our chart, passing in some options.

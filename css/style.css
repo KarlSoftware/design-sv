@@ -38,7 +38,6 @@ body {
     color: #fff;
     padding: 6px 25px;
     font: 12px/17px Arial, Helvetica, sans-serif;
-    background: rgba(20, 20, 20, 0);
     text-align: left;
     background: rgba(0,0,0,0.7);
 }
@@ -47,3 +46,16 @@ canvas.leaflet-heatmap-layer {
     z-index: 999;
     pointer-events: none;
 }
+
+div.leaflet-control {
+    pointer-events: none;
+}
+
+rect {
+    pointer-events: visiblePainted;
+}
+
+defs#defs + g [x="0"] {
+    fill: none;
+}
+
