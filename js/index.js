@@ -230,7 +230,6 @@ function ready() {
     }
 
     function zoomToFeature(e) {
-        resetHighlight();
         var layer = e.target;
 
         layer.setStyle({
