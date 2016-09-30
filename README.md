@@ -1,4 +1,4 @@
-# sv_platsannonser_AF_design
+# Design:Sweden
 Målet med denna karta är att försöka kartlägga jobb möjligheter inom design i Sverige.
 
 Data från Arbetsförmedlingens [Öppna data](http://www.arbetsformedlingen.se/Globalmeny/Om-webbplatsen/Oppna-data.html) 
