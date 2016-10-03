@@ -184,7 +184,7 @@ function ready() {
             'hAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 } },
             'vAxis': { 'viewWindow': {'min': 'auto'}, 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 }, 'textStyle': { 'color': "white", 'fontSize': 7 } },
             'bar': { 'groupWidth': '80%' },
-            'chartArea': { 'width': '100%', 'height': '100%' },
+            'chartArea': { 'left': 0, 'height': '100%' },
         };
 
         // Instantiate and draw our chart, passing in some options.
