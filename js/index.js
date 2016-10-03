@@ -181,7 +181,7 @@ function ready() {
             'axisTitlesPosition': 'none',
             'hAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 } },
             'vAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 }, 'textStyle': { 'color': "white" } },
-            'bar': { 'groupWidth': '80%' },
+            'bar': { 'groupWidth': '85%' },
             'chartArea': { 'width': '100%', 'height': '100%' },
         };
 
@@ -250,7 +250,7 @@ function ready() {
         layer.on({
             mouseover: highlightFeature,
             mouseout: resetHighlight,
-            click: zoomToFeature
+            // click: zoomToFeature
         });
     }
 }
