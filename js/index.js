@@ -4,7 +4,7 @@ var map = L.map('mapid', {
 });
 
 L.tileLayer('https://api.mapbox.com/styles/v1/sbtn/{id}/tiles/256/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>, Data <a href="http://www.arbetsformedlingen.se/Globalmeny/Om-webbplatsen/Oppna-data.html">Arbetsförmedlingen</a>',
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>, Data: <a href="http://www.arbetsformedlingen.se/Globalmeny/Om-webbplatsen/Oppna-data.html">Arbetsförmedlingen</a>',
     maxZoom: 18,
     id: 'citjymx5f00622imscnenfr6c',
     accessToken: 'pk.eyJ1Ijoic2J0biIsImEiOiJjaXRtdmhwYWMwMDE3Mm5vN2lubXV2c25vIn0.IPGzS7IusNBRX5SHRlterQ'
@@ -172,7 +172,6 @@ function ready() {
         var options = {
             'title': "",
             'titleTextStyle': { 'color': 'white', 'fontSize': 40 },
-            'width': 300,
             'height': 500,
             'backgroundColor': "none",
             'colors': ['white'],
@@ -180,9 +179,9 @@ function ready() {
             'animation': { 'startup': true, 'duration': 1000 },
             'axisTitlesPosition': 'none',
             'hAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 } },
-            'vAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 }, 'textStyle': { 'color': "white" } },
-            'bar': { 'groupWidth': '85%' },
-            'chartArea': { 'width': '100%', 'height': '100%' },
+            'vAxis': { 'viewWindow': {'min': 'auto'}, 'textPosition': 'out', 'gridlines': { 'color': 'transparent', 'count': -1 }, 'textStyle': { 'color': "white", 'fontSize': 7 } },
+            'bar': { 'groupWidth': '80%' },
+            'chartArea': { 'width': '75%', 'height': '100%' },
         };
 
         // Instantiate and draw our chart, passing in some options.
