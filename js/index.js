@@ -164,24 +164,27 @@ function ready() {
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'Kommun');
         data.addColumn('number', 'Available positions');
+        data.addColumn({type:'string', role:'annotation'});
         data.addRows(top5.map(function(obj) {
-            return [obj.knnamn, obj.platser];
+            return [obj.knnamn, obj.platser, obj.knnamn];
         }));
 
         // Set chart options
         var options = {
             'title': "",
             'titleTextStyle': { 'color': 'white', 'fontSize': 40 },
+            'width': '100%',
             'height': 500,
             'backgroundColor': "none",
             'colors': ['white'],
             'legend': { 'position': 'none' },
+            'annotations': {'stem': {'length': 5, 'color': 'transparent'}, 'textStyle': {'fontSize': 8}},
             'animation': { 'startup': true, 'duration': 1000 },
             'axisTitlesPosition': 'none',
             'hAxis': { 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 } },
-            'vAxis': { 'viewWindow': {'min': 'auto'}, 'textPosition': 'out', 'gridlines': { 'color': 'transparent', 'count': -1 }, 'textStyle': { 'color': "white", 'fontSize': 7 } },
+            'vAxis': { 'viewWindow': {'min': 'auto'}, 'textPosition': 'none', 'gridlines': { 'color': 'transparent', 'count': -1 }, 'textStyle': { 'color': "white", 'fontSize': 7 } },
             'bar': { 'groupWidth': '80%' },
-            'chartArea': { 'width': '75%', 'height': '100%' },
+            'chartArea': { 'width': '100%', 'height': '100%' },
         };
 
         // Instantiate and draw our chart, passing in some options.
