@@ -16,7 +16,7 @@ var highest = 0; // Kommun with highest number of jobs this day
 function today() {
     var timestamp = new Date()
     year = '' + timestamp.getFullYear()
-    month = timestamp.getMonth() < 10 ? '0' + timestamp.getMonth() : timestamp.getMonth();
+    month = timestamp.getMonth() + 1 < 10 ? '0' + timestamp.getMonth() + 1 : timestamp.getMonth() + 1;
     day = timestamp.getDate() < 10 ? '0' + timestamp.getDate() : timestamp.getDate();
 
     return year + month + day;
@@ -128,7 +128,7 @@ function ready() {
     // method that we will use to update the control based on feature properties passed
     display.update = function(props) {
         this._div.innerHTML = (props ?
-            '<h4>' + props.knnamn + '</h4><br />' + today() + '<h2>Available positions: ' + props.platser + '</h2>' :
+            '<h4>Design: ' + props.knnamn + '</h4><br />' + today() + '<h2>Available positions: ' + props.platser + '</h2>' :
             '<h4>Design: Sweden</h4><br />' + today() + '<h2>Available positions: ' + totalAntalPlatsannonser + '</h2>');
     };
     display.addTo(map);
@@ -172,7 +172,7 @@ function ready() {
         var options = {
             'title': "",
             'titleTextStyle': { 'color': 'white', 'fontSize': 40 },
-            'width': '100%',
+            'width': 300,
             'height': 500,
             'backgroundColor': "none",
             'colors': ['white'],
