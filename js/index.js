@@ -106,7 +106,7 @@ function ready() {
     info.onAdd = function(map) {
         this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
         //this._div.innerHTML = "<p>Kartläggning av designrelaterade platsannonser från Arbetsförmedlingen. Annonserna uppdateras dagligen och filtreras på yrkesområde 'Kultur, media, design' samt nyckelord 'design'.</p>"
-        this._div.innerHTML = "<p>Design: Sweden is a visualization of design related job listings from Arbetsförmedlingen. The list is updated daily and filtered by category 'Culture, media, design' and the keyword 'design'.</p>"
+        this._div.innerHTML = "<p>Design: Sweden is a live visualization of design related job listings from Arbetsförmedlingen filtered by category 'Culture, media, design' and the keyword 'design'.</p>"
         return this._div;
     };
 
@@ -267,7 +267,15 @@ var totalAntalPlatsannonser = 0;
 
 // Load todays data from AF
 //
-$.getJSON('./json_AF/' + today() + '_json_AF.json', function(jobs) {
+var options = {
+  hostname: 'api.arbetsformedlingen.se',
+  path: '/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000',
+  headers: { 'Accept': 'application/json',
+             'Accept-Language': 'sv' 
+           }
+};
+
+$.getJSON('http://' + options.hostname + options.path, function(jobs) {
 
         totalAntalPlatsannonser = jobs.matchningslista.antal_platserTotal;
 
