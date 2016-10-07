@@ -275,7 +275,7 @@ var options = {
            }
 };
 
-$.getJSON('http://' + options.hostname + options.path, function(jobs) {
+$.getJSON('https://' + options.hostname + options.path, function(jobs) {
 
         totalAntalPlatsannonser = jobs.matchningslista.antal_platserTotal;
 
