@@ -267,16 +267,17 @@ var totalAntalPlatsannonser = 0;
 
 // Load todays data from AF
 //
-var options = {
-  hostname: 'api.arbetsformedlingen.se',
-  path: '/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000',
-  headers: { 'Accept': 'application/json',
-             'Accept-Language': 'sv' 
-           }
-};
+// var options = {
+//   hostname: 'api.arbetsformedlingen.se',
+//   path: '/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000',
+//   headers: { 'Accept': 'application/json',
+//              'Accept-Language': 'sv' 
+//            }
+// };
 
-$.getJSON('https://' + options.hostname + options.path, function(jobs) {
+// $.getJSON('https://' + options.hostname + options.path, function(jobs) {
 
+$.getJSON('./json_AF/' + today() + '_json_AF.json', function(jobs) {
         totalAntalPlatsannonser = jobs.matchningslista.antal_platserTotal;
 
         $.each(kn_points.features, function(i, point) {
