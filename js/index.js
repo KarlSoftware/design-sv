@@ -277,22 +277,22 @@ var totalAntalPlatsannonser = 0;
 
 // $.getJSON('https://' + options.hostname + options.path, function(jobs) {
 
-var req = new XMLHttpRequest();
-req.open("GET", "http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000", false);
-req.send(null);
-console.log('from XMLHttpReq: ' + JSON.parse(req.responseText));
+// var req = new XMLHttpRequest();
+// req.open("GET", "http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000", false);
+// req.send(null);
+// console.log('from XMLHttpReq: ' + JSON.parse(req.responseText));
 
-$.getJSON('http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000', function(jobs) {
-console.log(JSON.parse(req.responseText))
-    })
-    .done(function(jobs) {
-        ready();
-        console.log("Success!");
-    })
-    .fail(function(jqxhr, textStatus, error) {
-        var err = textStatus + ", " + error;
-        console.log("Request Failed: " + err);
-    });
+// $.getJSON('http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000', function(jobs) {
+// console.log(JSON.parse(req.responseText))
+//     })
+//     .done(function(jobs) {
+//         ready();
+//         console.log("Success!");
+//     })
+//     .fail(function(jqxhr, textStatus, error) {
+//         var err = textStatus + ", " + error;
+//         console.log("Request Failed: " + err);
+//     });
 
 $.getJSON('./json_AF/' + today() + '_json_AF.json', function(jobs) {
         totalAntalPlatsannonser = jobs.matchningslista.antal_platserTotal;
