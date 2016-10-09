@@ -277,25 +277,13 @@ var totalAntalPlatsannonser = 0;
 
 // $.getJSON('https://' + options.hostname + options.path, function(jobs) {
 
-// var req = new XMLHttpRequest();
-// req.open("GET", "http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000", false);
-// req.send(null);
-// console.log('from XMLHttpReq: ' + JSON.parse(req.responseText));
+var req = new XMLHttpRequest();
+req.open("GET", "http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000", true);
+req.addEventListener("load", function() {
+    console.log(req.status);
+    var jobs = JSON.parse(req.response);
 
-// $.getJSON('http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000', function(jobs) {
-// console.log(JSON.parse(req.responseText))
-//     })
-//     .done(function(jobs) {
-//         ready();
-//         console.log("Success!");
-//     })
-//     .fail(function(jqxhr, textStatus, error) {
-//         var err = textStatus + ", " + error;
-//         console.log("Request Failed: " + err);
-//     });
-
-$.getJSON('./json_AF/' + today() + '_json_AF.json', function(jobs) {
-        totalAntalPlatsannonser = jobs.matchningslista.antal_platserTotal;
+    totalAntalPlatsannonser = jobs.matchningslista.antal_platserTotal;
 
         $.each(kn_points.features, function(i, point) {
             $.each(jobs.matchningslista.matchningdata, function(j, match) {
@@ -311,12 +299,45 @@ $.getJSON('./json_AF/' + today() + '_json_AF.json', function(jobs) {
 
         });
 
-    })
-    .done(function(jobs) {
-        ready();
-        console.log("Success!");
-    })
-    .fail(function(jqxhr, textStatus, error) {
-        var err = textStatus + ", " + error;
-        console.log("Request Failed: " + err);
-    });
+    ready();
+});
+req.send(null);
+
+// $.getJSON('http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000', function(jobs) {
+// console.log(JSON.parse(req.responseText))
+//     })
+//     .done(function(jobs) {
+//         ready();
+//         console.log("Success!");
+//     })
+//     .fail(function(jqxhr, textStatus, error) {
+//         var err = textStatus + ", " + error;
+//         console.log("Request Failed: " + err);
+//     });
+
+// $.getJSON('./json_AF/' + today() + '_json_AF.json', function(jobs) {
+//         totalAntalPlatsannonser = jobs.matchningslista.antal_platserTotal;
+
+//         $.each(kn_points.features, function(i, point) {
+//             $.each(jobs.matchningslista.matchningdata, function(j, match) {
+//                 if (match.kommunnamn == point.properties.knnamn) {
+//                     point.properties.platser == null ? point.properties.platser = 1 : point.properties.platser += 1;
+//                     kn_lan_poly.features[i].properties.platser == null ? kn_lan_poly.features[i].properties.platser = 1 : kn_lan_poly.features[i].properties.platser += 1;
+
+//                 }
+//                 kn_lan_poly.features[i].properties.platser == null ? kn_lan_poly.features[i].properties.platser = 0 : null;
+//             });
+//             point.properties.platser > highest ? highest = point.properties.platser : highest = highest;
+
+
+//         });
+
+//     })
+//     .done(function(jobs) {
+//         ready();
+//         console.log("Success!");
+//     })
+//     .fail(function(jqxhr, textStatus, error) {
+//         var err = textStatus + ", " + error;
+//         console.log("Request Failed: " + err);
+//     });
