@@ -279,29 +279,8 @@ var totalAntalPlatsannonser = 0;
 
 var req = new XMLHttpRequest();
 req.open("GET", "http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000", true);
-req.addEventListener("load", function() {
-    console.log(req.status);
-    // var jobs = JSON.parse(req.response);
-
-    // totalAntalPlatsannonser = jobs.matchningslista.antal_platserTotal;
-
-    //     $.each(kn_points.features, function(i, point) {
-    //         $.each(jobs.matchningslista.matchningdata, function(j, match) {
-    //             if (match.kommunnamn == point.properties.knnamn) {
-    //                 point.properties.platser == null ? point.properties.platser = 1 : point.properties.platser += 1;
-    //                 kn_lan_poly.features[i].properties.platser == null ? kn_lan_poly.features[i].properties.platser = 1 : kn_lan_poly.features[i].properties.platser += 1;
-
-    //             }
-    //             kn_lan_poly.features[i].properties.platser == null ? kn_lan_poly.features[i].properties.platser = 0 : null;
-    //         });
-    //         point.properties.platser > highest ? highest = point.properties.platser : highest = highest;
-
-
-    //     });
-
-    // ready();
-});
 req.send(null);
+console.log('from XMLHttpReq: ' + JSON.parse(req.responseText));
 
 // $.getJSON('http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000', function(jobs) {
 // console.log(JSON.parse(req.responseText))
