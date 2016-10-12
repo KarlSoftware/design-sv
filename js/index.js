@@ -284,35 +284,35 @@ var totalAntalPlatsannonser = 0;
 // });
 // req.send(null);
 
-var createCORSRequest = function(method, url) {
-  var xhr = new XMLHttpRequest();
-  if ("withCredentials" in xhr) {
-    // Most browsers.
-    xhr.open(method, url, true);
-  } else if (typeof XDomainRequest != "undefined") {
-    // IE8 & IE9
-    xhr = new XDomainRequest();
-    xhr.open(method, url);
-  } else {
-    // CORS not supported.
-    xhr = null;
-  }
-  return xhr;
-};
+// var createCORSRequest = function(method, url) {
+//   var xhr = new XMLHttpRequest();
+//   if ("withCredentials" in xhr) {
+//     // Most browsers.
+//     xhr.open(method, url, true);
+//   } else if (typeof XDomainRequest != "undefined") {
+//     // IE8 & IE9
+//     xhr = new XDomainRequest();
+//     xhr.open(method, url);
+//   } else {
+//     // CORS not supported.
+//     xhr = null;
+//   }
+//   return xhr;
+// };
 
-var url = 'http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000';
-var method = 'GET';
-var xhr = createCORSRequest(method, url);
+// var url = 'http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000';
+// var method = 'GET';
+// var xhr = createCORSRequest(method, url);
 
-xhr.onload = function() {
-  console.log(JSON.parse(xhr.responseText));
-};
+// xhr.onload = function() {
+//   console.log(JSON.parse(xhr.responseText));
+// };
 
-xhr.onerror = function() {
-  // Error code goes here.
-};
+// xhr.onerror = function() {
+//   // Error code goes here.
+// };
 
-xhr.send();
+// xhr.send();
 
 // $.getJSON('http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000', function(jobs) {
 // console.log(JSON.parse(req.responseText))
@@ -326,7 +326,13 @@ xhr.send();
 //         console.log("Request Failed: " + err);
 //     });
 
-$.getJSON('./json_AF/' + today() + '_json_AF.json', function(jobs) {
+jQuery.ajaxPrefilter(function(options) {
+    if (options.crossDomain && jQuery.support.cors) {
+        options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+    }
+});
+
+$.getJSON('http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?yrkesomradeid=11&nyckelord=design&antalrader=1000', function(jobs) {
         totalAntalPlatsannonser = jobs.matchningslista.antal_platserTotal;
 
         $.each(kn_points.features, function(i, point) {
