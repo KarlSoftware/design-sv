@@ -266,7 +266,7 @@ var totalAntalPlatsannonser = 0;
 
 jQuery.ajaxPrefilter(function(options) {
     if (options.crossDomain && jQuery.support.cors) {
-        options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+        options.url = 'https://sleepy-lowlands-30138.herokuapp.com/' + options.url;
     }
 });
 
